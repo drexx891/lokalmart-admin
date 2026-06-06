@@ -9,7 +9,8 @@
     "lint": "eslint",
     "seed:categories": "npx tsx prisma/seedCategories.ts",
     "seed:metrics": "npx tsx prisma/seedMetrics.ts",
-    "verify:schema": "npx tsx prisma/verify-schema.ts"
+    "verify:schema": "npx tsx prisma/verify-schema.ts",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.101.0",
