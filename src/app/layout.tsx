@@ -4,6 +4,9 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 import AdminLayoutWrapper from "@/components/admin/AdminLayoutWrapper";
 
+export const dynamic = "force-dynamic";
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const viewport: Viewport = {
